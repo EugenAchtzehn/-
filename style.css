@@ -1,0 +1,95 @@
+body {
+  background-color: darkgreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.outer_wrap {
+  background-image: url(./img/background-crop.jpg);
+  height: 1080px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 1rem;
+  /* position: relative; */
+}
+
+.header_wrap {
+  background-color: rgba(245, 245, 220, 0.6);
+  height: 2rem;
+  padding: 1rem;
+}
+
+.main_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* padding: 1rem; */
+}
+
+.left_wrap {
+  min-height: 2rem;
+  width: 50%;
+  background-color: maroon;
+}
+
+/* 撐開左側 wrap */
+.title_wrap {
+  width: 200px;
+  height: 70px;
+  margin: 1rem auto;
+  background-color: aquamarine;
+}
+
+.nav_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 1.5rem; */
+}
+
+.nav_wrap a {
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-color: cadetblue;
+  border: 2px dashed goldenrod;
+}
+
+.right_wrap {
+  min-height: 2rem;
+  width: 50%;
+  background-color: navy;
+}
+
+@media (max-width: 768px) {
+  /* .main_wrap {
+    display: block;
+  } */
+
+  .left_wrap,
+  .right_wrap {
+    width: 100%;
+  }
+  /* .right_wrap {
+    height: 200vh;
+  } */
+}
+
+.footer_wrap {
+  height: 2rem;
+  width: 100%;
+  /* width: calc(100% - 4rem); */
+  margin: 0 auto;
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(245, 245, 220, 0.6);
+}
