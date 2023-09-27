@@ -41,7 +41,7 @@ body {
 .left_wrap {
   min-height: 2rem;
   /* 計算減掉 footer 區塊 */
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 6rem);
   width: 50%;
   background-color: rgba(128, 0, 0, 0.5);
   position: relative;
@@ -50,7 +50,7 @@ body {
 .right_wrap {
   min-height: 2rem;
   /* 計算減掉 footer 區塊 */
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 6rem);
   width: 50%;
   background-color: rgba(0, 0, 128, 0.5);
 }
@@ -88,6 +88,16 @@ body {
   width: 100%;
 }
 
+.first_sect {
+  display: flex;
+  gap: 1rem;
+}
+
+.second_sect {
+  display: flex;
+  gap: 1rem;
+}
+
 .nav_wrap a {
   display: block;
   width: 100px;
@@ -107,7 +117,7 @@ body {
 }
 
 .footer_wrap {
-  height: 2rem;
+  height: 4rem;
   /* width: 100%; */
   /* width: calc(100% - 4rem); */
   margin: 0 auto;
