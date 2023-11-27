@@ -42,6 +42,12 @@ body {
   /* padding: 1rem; */
 }
 
+.main_wrap_index2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
 .left_wrap {
   min-height: 2rem;
   /* 計算減掉 footer 區塊 */
@@ -60,16 +66,18 @@ body {
 }
 
 .left_wrap_md_70 {
+  margin-top: 2rem;
   min-height: 2rem;
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 10rem);
   width: 70%;
-  background-color: rgba(245, 245, 220, 0.9);
+  /* background-color: rgba(245, 245, 220, 0.9); */
   position: relative;
 }
 
 .right_wrap_md_30 {
+  margin-top: 2rem;
   min-height: 2rem;
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 10rem);
   width: 30%;
   background-color: rgba(230, 230, 250, 0.9);
   position: relative;
@@ -95,8 +103,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  height: calc(100% - 105px);
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .news_wrap_index2 li {
@@ -122,6 +130,21 @@ body {
   height: 70px;
   margin: 1rem auto;
   background-color: aquamarine;
+}
+
+.title_wrap_index2 {
+  height: 25%;
+  background-color: violet;
+  overflow-y: scroll;
+}
+
+.image_section {
+  background-image: url(./img/800X500.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(75% - 0.5rem);
+  margin-top: 0.5rem;
 }
 
 .nav_wrap {
