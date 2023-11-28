@@ -1,3 +1,17 @@
+/* overall utilities */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+
 body {
   /* background-color: darkgreen; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -119,11 +133,18 @@ body {
 .title_news_index2 {
   color: #fff;
   background-color: rgb(33, 78, 117);
-  padding: 0.5rem 0 0.5rem 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.news_list_index2 {
+  height: calc(100% - 2rem);
 }
 
 .news_list_index2 > li {
-  padding: 0.5rem 0 0.5rem 0.5rem;
+  padding: 0.2rem;
+  font-size: 0.8rem;
   border-bottom: 1px dashed rgb(33, 78, 117);
 }
 
