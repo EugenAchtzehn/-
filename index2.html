@@ -7,19 +7,21 @@
         content="IE=edge" />
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0" />
-  <title>空污抵換媒合平台 - 首頁</title>
+  <title>噪音車，排氣管</title>
   <link rel="stylesheet"
         href="./reset.css" />
   <link rel="stylesheet"
         href="./css/bootstrap.min.css" />
   <link rel="stylesheet"
         href="./style.css" />
+  <script src="/js/library/jquery-3.7.0.min.js"></script>
+  <script src="/js/addStyle.js"></script>
 </head>
 
 <body class="body_background">
   <!-- outer_wrap -->
 
-  <div class="header_wrap_index2 container-fluid">
+  <div class="header_wrap_index2">
     <div class="quick_search_index2">
       <ul>
         <li>網站使用問卷</li>
@@ -33,14 +35,41 @@
         <li>放大鏡</li>
       </ul>
     </div>
-    <section>LOGO</section>
-    <nav class="nav_wrap_index2">
+    <section class="top_logo_wrap">
+      <a href="javascript:;">
+        <img class="logo_image"
+             src="/img/MOENV_LOGO_WHITE.png"
+             alt="環保署LOGO">
+      </a>
+    </section>
+    <label class="toggle_menu_button"
+           id="toggleMobileMenuLabel"
+           for="toggleMobileMenu">
+      <div class="menu_bar bar__top"></div>
+      <div class="menu_bar bar__middle"></div>
+      <div class="menu_bar bar__bottom"></div>
+      <input type="checkbox"
+             id="toggleMobileMenu"
+             title="啟閉行動裝置網頁選單">
+    </label>
+    <nav class="nav_wrap_index2"
+         id="navMenuWrap">
       <ul>
-        <li>回首頁</li>
-        <li>作業須知、法規</li>
-        <li>相關規定</li>
-        <li>車主不可不知</li>
-        <li>問答Q&A</li>
+        <li>
+          <a href="javascript:;">回首頁</a>
+        </li>
+        <li>
+          <a href="javascript:;">作業須知、法規</a>
+        </li>
+        <li>
+          <a href="javascript:;">相關規定</a>
+        </li>
+        <li>
+          <a href="javascript:;">車主不可不知</a>
+        </li>
+        <li>
+          <a href="javascript:;">問答Q&A</a>
+        </li>
       </ul>
     </nav>
   </div>
